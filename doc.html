@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p {
+            color: salmon;
+        }
+        p::first-letter{
+            color: yellowgreen;
+        }
+        p::before{
+            content: "🤩";
+        }
+        p:hover {
+            color: skyblue;
+        }
+        div p:nth-child(2){
+            color: violet;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>about us</li>
-            <li>contact us</li>
-        </ul>
-    </nav>
-    <section>
-        <div>
-            <img src="https://i.pinimg.com/564x/f6/7e/61/f67e61ab43454fd66a3830ee20b76701.jpg" alt="Squarel">
-            <h1>Pokemon</h1>
-        </div>
-    </section>
-    <form action="">
-        <label for="name">Name</label>
-        <input type="text" id="name">
-    </form>
+    <div>
+        <p>platzi</p>
+        <p>master</p>
+        <p>lo mejor</p>
+    </div>
+    <p>Hola</p>
 </body>
 </html>
