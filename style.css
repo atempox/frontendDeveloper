@@ -44,7 +44,7 @@ body{
         transform: translateY(-10vh) scale(1);
     }
 }
-section{
+#contenedorCard{
     width: 600px;
     height: 400px;
     border: 1px solid peachpuff; 
@@ -61,16 +61,40 @@ section{
     border-radius: 20px;
     z-index: 10;
     overflow: hidden;
-    background-image: linear-gradient(to bottom right, #35374B, #344955, #50727B, #78A083);
+    position: relative;
+    background-image: linear-gradient(to bottom right, transparent, #35374B, #344955, #50727B, #0c192c);
 }
+
 #primeraFoto  {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    position: absolute;
 }
 #hombre{
     margin: 0px;
     padding: 0px;
-    width: 50%;
-    border-radius: 60%; 
+    width: 107px;
+    height: 107px;
+    border-radius: 50%;
+    position: absolute;
+    top: 87px;
+    right: 0px; 
+}
+h1 {
+    color: papayawhip;
+    position: absolute;
+    top: 157px;
+    font-size: 16px;
+}
+h2{
+    color: papayawhip;
+    position: absolute;
+    top: 191px;
+    font-size: 22px;
+}
+#redes {
+    position: absolute;
+    top: 262px;
+    right: 65%;
 }
